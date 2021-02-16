@@ -70,6 +70,12 @@ body{font-family: 'Roboto', sans-serif;
   .nav-item {
     padding-left: 30px;
   }
+
+  .container-fluid{
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+
+  }
   
   /* Navigation dropdown menu */
   .dropdown-menu {
@@ -146,8 +152,95 @@ body{font-family: 'Roboto', sans-serif;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.blueBG{
+    padding: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right,#C9D8DF 0%,#C9D8DF 95%,#C9D8DF 50%,white 5%,white 100%);
+}
+#empathy{
+    width: 100%;
+    padding: 10px;
+}
+.empathyMap{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*Definition & Synthesis*/
 
-
+.definitionAndSynthesis{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    background-color: #C9D8DF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.whiteBG{
+    padding: 15px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right,white 0%,white 98%,white 50%, #C9D8DF 2%,#C9D8DF 100%);
+}
+/*Ideation*/
+.ideation{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+#userFlow{
+    width: 100%;
+}
+.sketches{
+    width: 90%;
+}
+.prototyping{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: #C9D8DF;
+}
+/*User Testing*/
+.userTesting{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.solutions{
+    width: 80%;
+    margin-bottom: 50px;
+}
+#style{
+    width: 95%;
+}
+.thickRMargin{
+ padding-right: 100px;
+}
+#solution1{
+    background-color: #C9D8DF;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+#solution2{
+    background-color: #C9D8DF;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+/*Conclusions*/
+.conclusions{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: #C9D8DF;
+}
+.finalImages{
+    width: 100%;
+}
 
 /*Footer*/
 .footer{
